@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+    .card {
+        max-width: 20rem;
+    }
+
+    .course-text {
+        line-height: 1.65rem;
+        /* rem = root element*/
+        text-align: justify;
+        text-indent: 20px;
+    }
+
+    .logos {
+        flex-direction: column;
+    }
+
+    .logo-dsm {
+        width: 11rem;
+        object-fit: contain;
+    }
+
+    .logo-fatec {
+        width: 5rem;
+        object-fit: contain;
+    }
+
+    .logo-cps {
+        width: 6rem;
+        object-fit: contain;
+    }
+
+}

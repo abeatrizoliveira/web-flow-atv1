@@ -1,0 +1,124 @@
+/* @import é uma regra do CSS usada para carregar arquivos de estilo externos dentro de uma folha de estilos */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+    font-family: Roboto, serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.card {
+    margin: 4rem 0 4rem 0;
+    display: flex;
+    background-color: #fff;
+    max-width: 51.25rem;
+    border-radius: 0.625rem;
+    gap: 1rem;
+    padding: 2rem;
+    flex-direction: column;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.8);
+}
+
+.course-text {
+    line-height: 1.65rem;
+    /* rem = root element*/
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-dsm {
+    width: 22.3125rem;
+    height: 7.4375rem;
+}
+
+.logo-fatec {
+    width: 10.125rem;
+    height: 3.875rem;
+}
+
+.logo-cps {
+    width: 12rem;
+    height: 8rem;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.btn-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    background-color: #1f6feb;
+    color: white;
+    font: inherit;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 0;
+}
+
+.btn-link:hover{
+    background-color: #195dca;
+}
+
+/* Login */
+.btn-secondary{
+    background-color: #4b5563;
+}
+
+.btn-secondary:hover{
+    background-color: #374151;
+}
+
+.auth-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.auth-form label{
+    font-weight: 500;
+}
+
+.auth-form input{
+    padding: 0.7rem 0.8rem;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid #cbd5e1;
+    font: inherit;
+}
+
+/* 404 */
+.aviso-content{
+    text-align: center;
+}
+
+.aviso{
+    width: 10rem;
+}
+
+.aviso-link{
+    text-decoration: none;
+    color: #1f6feb;
+    font: inherit;
+    font-weight: 500;
+}
